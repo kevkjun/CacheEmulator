@@ -11,17 +11,17 @@ Written using Java 11.0.5.
 
 **Running**
 * Navigate into /src directory
-* Compile: ```java {javac *java} ```
-* Run: ```java {_java CacheSim **arguments**}```
+* Compile: ```{javac *java} ```
+* Run: ```{java CacheSim **arguments**}```
     * Syntax for the arguments follows the request arguments in the project description
-        * ```java {-c}```: size of the cache in bytes (default: 65,536)
-        * _-b_ : size of a data block in bytes (default: 64)
-        * _-n_ : n-way associativity (default: 2)
-        * _-r_ : replacement policty from LRU, FIFO, random (default: LRU)
-        * _-a_ : selected algorithm from daxpy, mxm, mxm_block (default: mxm_block)
-        * _-d_ : dimensions of array or matries (default: 480)
-        * _-p_ : flag to print to console
-        * _-f_ : blocking factor for mxm_block (default: 32)
+        * ```{-c}``` : size of the cache in bytes (default: 65,536)
+        * ```{-b}``` : size of a data block in bytes (default: 64)
+        * ```{-n}``` : n-way associativity (default: 2)
+        * ```{-r}``` : replacement policty from LRU, FIFO, random (default: LRU)
+        * ```{-a}``` : selected algorithm from daxpy, mxm, mxm_block (default: mxm_block)
+        * ```{-d}``` : dimensions of array or matries (default: 480)
+        * ```{-p}``` : flag to print to console
+        * ```{-f}``` : blocking factor for mxm_block (default: 32)
 * Considerations for arguments:
  * _c_, _b_, _n_, and _f_ should be powers of 2 - similar to the architecture of modern computers
  * _f_ must divide into _d_ perfectly (i.e. _d mod f = 0_)
