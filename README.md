@@ -12,7 +12,7 @@ Written using Java 11.0.5.
 * Navigate into /src directory
 * Compile: javac *java
 * Run: java CacheSim **arguments**
-  ** – Syntax for the arguments follows the request qrguments in the project description
+  * Syntax for the arguments follows the request qrguments in the project description
 * Output: Upon call to the driver, there will be console output of the inputs provided to the emulator. Results will also be
 printed to console upon completion of the algorithm.
 
