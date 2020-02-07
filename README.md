@@ -23,12 +23,12 @@ Written using Java 11.0.5.
         * ```-p``` : flag to print to console
         * ```-f``` : blocking factor for mxm_block (default: 32)
 * Considerations for arguments:
-      * _c_, _b_, _n_, and _f_ should be powers of 2 - similar to the architecture of modern computers
-      * _f_ must divide into _d_ perfectly (i.e. _d mod f = 0_)
-      * _c_ should be much larger than _b_ (i.e. there should be a sizable number of blocks in a cache)
+   * _c_, _b_, _n_, and _f_ should be powers of 2 - similar to the architecture of modern computers
+   * _f_ must divide into _d_ perfectly (i.e. _d mod f = 0_)
+   * _c_ should be much larger than _b_ (i.e. there should be a sizable number of blocks in a cache)
 * Output: Upon call to the driver, there will be console output of the inputs provided to the emulator. Results will also be
 printed to console upon completion of the algorithm.
- * The RAM size that gets printed out is the bare minimum RAM needed to store the outputs calculated rounded up to the nearest multiple of the data block size in bytes (default: 64)
+   * The RAM size that gets printed out is the bare minimum RAM needed to store the outputs calculated rounded up to the nearest multiple of the data block size in bytes (default: 64)
 
 ### Code Description
 
