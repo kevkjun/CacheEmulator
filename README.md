@@ -11,8 +11,7 @@ Written using Java 11.0.5.
 
 **Running**
 * Navigate into /src directory
-* Compile: 
- * _javac *java_
+* Compile: ```java {javac *java} ```
 * Run
     * _java CacheSim **arguments**_
     * Syntax for the arguments follows the request arguments in the project description
