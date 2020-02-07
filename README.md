@@ -32,7 +32,7 @@ printed to console upon completion of the algorithm.
 
 ### Code Description
 
-The emulator is implemented in CacheSim.java where a CPU object is created. Within the CPU class, a Cache object is instan- tiated and within the Cache a RAM object is instantiated.
+The emulator is implemented in CacheSim.java where a CPU object is created. Within the CPU class, a Cache object is instantiated and within the Cache a RAM object is instantiated.
 
 The implementations of these classes extend the UML sketch provided in the project description.
 
