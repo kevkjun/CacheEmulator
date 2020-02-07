@@ -12,10 +12,9 @@ Written using Java 11.0.5.
 **Running**
 * Navigate into /src directory
 * Compile: ```java {javac *java} ```
-* Run
-    * _java CacheSim **arguments**_
+* Run: ```java {_java CacheSim **arguments**}```
     * Syntax for the arguments follows the request arguments in the project description
-        * _-c_ : size of the cache in bytes (default: 65,536)
+        * ```java {-c}```: size of the cache in bytes (default: 65,536)
         * _-b_ : size of a data block in bytes (default: 64)
         * _-n_ : n-way associativity (default: 2)
         * _-r_ : replacement policty from LRU, FIFO, random (default: LRU)
