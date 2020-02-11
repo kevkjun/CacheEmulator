@@ -1,7 +1,7 @@
 # CacheEmulator
 ## Computer Architecture - Project 1 - README
-## Kevin Jun 
-## February 3, 2020
+Kevin Jun 
+February 3, 2020
 
 ### Files
 The source code is in the /src directory. The driver class is CacheSim.java. 
