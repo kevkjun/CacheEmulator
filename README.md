@@ -7,8 +7,12 @@ February 3, 2020
 ### Files
 The source code is in the /src directory. The driver class is CacheSim.java. 
 
+---
+
 ### The Emulator
 Written using Java 11.0.5.
+
+---
 
 **Running**
 * Navigate into /src directory
@@ -30,6 +34,8 @@ Written using Java 11.0.5.
 * Output: Upon call to the driver, there will be console output of the inputs provided to the emulator. Results will also be
 printed to console upon completion of the algorithm.
    * The RAM size that gets printed out is the bare minimum RAM needed to store the outputs calculated rounded up to the nearest multiple of the data block size in bytes (default: 64)
+   
+---
 
 ### Code Description
 
