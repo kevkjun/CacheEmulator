@@ -1,5 +1,5 @@
 # CacheEmulator
-## Computer Architecture - Project 1 - README
+## README
 Kevin Jun - February 3, 2020
 
 ---
